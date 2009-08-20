@@ -1,0 +1,6 @@
+To run the tests:
+
+$ ./run <js> <testdir>
+
+Where <js> is your EcmaScript shell executable, and <testdir> is the directory containing the tests you want to run. These will default to 'js' and 'tests' if unspecified.
+
