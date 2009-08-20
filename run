@@ -1,0 +1,4 @@
+#!/bin/bash
+JS=${1:-'js'}
+DIR=${2:-'tests'}
+time ack-grep -f $DIR | xargs -n6000 $JS tools/sputnik.js
